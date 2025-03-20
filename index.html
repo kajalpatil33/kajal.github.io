@@ -141,6 +141,16 @@
   transform: translateY(0);
 }
 
+/* Hover effect for Download CV button */
+.hover-effect {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+  background-color: #ffbd39; /* Change to your desired hover background color */
+}
+
 </style>
 
 
@@ -416,7 +426,7 @@
 
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    				<p><a href="#" class="btn btn-primary py-4 px-5 hover-effect">Download CV</a></p>
     			</div>
     		</div>
     	</div>
